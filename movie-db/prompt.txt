@@ -1,0 +1,6 @@
+Design Database for a Movie Theater
+
+  - What tables would our DB have?
+  - What columns on each table?
+  - What datatypes?
+  - Write the SQL (CREATE TABLE) for each.
