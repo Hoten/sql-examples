@@ -31,9 +31,11 @@
   reference data in the other tables. "joining" tables is the act of combining data from multiple tables.
 
   doing "SELECT * FROM purchase, item, shopper" returns every combination of
-  rows from the three tables. So if the tables has 10, 100, and 20 entries,
-  the result from the query before would have 10 * 100 * 20 rows.
-  Only the rows where purchase.item_id = item.id and purchase.shopper_id = shopper.id are interesting.
+  rows from the three tables. So if the tables have 10, 100, and 20 entries,
+  the result from the query above would have 10 * 100 * 20 rows.
+
+  BUT- only the rows where purchase.item_id = item.id and purchase.shopper_id = shopper.id are interesting.
+  This is that intersection between the two tables- the shared space in our Venn Diagram.
 
   We do an implicit join when we write our WHERE clause such that these conditions are met. Example:
 */
