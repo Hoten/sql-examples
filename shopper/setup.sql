@@ -1,3 +1,4 @@
+-- See shopper.jpeg
 -- Terminal: psql
 -- In psql: CREATE DATABASE shop_db;
 -- Terminal: psql -f setup.sql -d shop_db;
